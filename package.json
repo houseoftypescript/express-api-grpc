@@ -1,9 +1,9 @@
 {
-  "name": "kafka-template",
+  "name": "express-grpc-template",
   "version": "0.0.1",
-  "description": "Kafka Template",
+  "description": "Express.js - gRPC Template",
   "main": "index.js",
-  "repository": "git@github.com:hieudoanm/kafka-template.git",
+  "repository": "git@github.com:hieudoanm/express-grpc-template.git",
   "author": "hieudoanm <hieumdoan@gmail.com>",
   "license": "GNU GPL 3.0",
   "private": true,
@@ -13,14 +13,14 @@
     "yarn": "1.22.19"
   },
   "scripts": {
-    "build:producer": "yarn workspace @kafka/producer build",
-    "dev:producer": "yarn workspace @kafka/producer dev",
-    "lint:producer": "yarn workspace @kafka/producer lint",
-    "test:producer": "yarn workspace @kafka/producer test",
-    "build:consumer": "yarn workspace @kafka/consumer build",
-    "dev:consumer": "yarn workspace @kafka/consumer dev",
-    "lint:consumer": "yarn workspace @kafka/consumer lint",
-    "test:consumer": "yarn workspace @kafka/consumer test",
+    "build:producer": "yarn workspace @grpc/producer build",
+    "dev:producer": "yarn workspace @grpc/producer dev",
+    "lint:producer": "yarn workspace @grpc/producer lint",
+    "test:producer": "yarn workspace @grpc/producer test",
+    "build:consumer": "yarn workspace @grpc/consumer build",
+    "dev:consumer": "yarn workspace @grpc/consumer dev",
+    "lint:consumer": "yarn workspace @grpc/consumer lint",
+    "test:consumer": "yarn workspace @grpc/consumer test",
     "prepare": "husky install || true"
   },
   "devDependencies": {
