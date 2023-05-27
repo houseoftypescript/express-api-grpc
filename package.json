@@ -1,9 +1,9 @@
 {
-  "name": "express-grpc-template",
+  "name": "@express/grpc",
   "version": "0.0.1",
-  "description": "Express.js - gRPC Template",
+  "description": "express.js - grpc",
   "main": "index.js",
-  "repository": "git@github.com:hieudoanm/express-grpc-template.git",
+  "repository": "git@github.com:hieudoanm/express-api-grpc.git",
   "author": "hieudoanm <hieumdoan@gmail.com>",
   "license": "GNU GPL 3.0",
   "private": true,
